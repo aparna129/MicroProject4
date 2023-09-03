@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  background-color: #3b4664;
+}
+.header {
+  margin-top: 18vh;
+  color: white;
+  padding-bottom: 2vh;
+  margin-left: 38.1vw;
+}
+#input {
+  background-color: #181f32;
+  width: 19vw;
+  height: 8vh;
+  border: 1px solid hsl(224, 35%, 15%);
+  border-radius: 5px;
+  margin-left: 38vw;
+  text-align: right;
+  color: white;
+  font-weight: bold;
+  line-height: 3;
+  font-size: 20px;
+}
+.values {
+  background-color: #252d44;
+  margin-left: 38vw;
+  width: 18vw;
+  height: 32vh;
+  border-radius: 5px;
+  margin-top: 4vh;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.row {
+  display: flex;
+  justify-content: space-evenly;
+}
+.button {
+  width: 20%;
+  height: 140%;
+  border-radius: 5px;
+  border: 1px solid white;
+}
+.lastbtns {
+  width: 43%;
+  height: 140%;
+  border-radius: 5px;
+  border: 1px solid white;
+}
+.del {
+  background-color: #647299;
+  color: white;
+  border: 1px solid #647299;
+}
+.reset {
+  background-color: #647299;
+  color: white;
+  border: 1px solid #647299;
+}
+.equal {
+  background-color: #d13f30;
+  color: white;
+  border: 1px solid #d13f30;
+}
